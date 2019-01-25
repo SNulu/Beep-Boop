@@ -2,7 +2,7 @@ function beepIn(input){
   var numbers = [];
 
   var numberStr = "";
-  for (var i = 0; i < input; i++){
+  for (var i = 0; i <= input; i++){
     numberStr=String(i);
 
     if(numberStr.includes("3")){
