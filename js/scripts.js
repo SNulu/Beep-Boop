@@ -1,23 +1,34 @@
-function beepIn(input) {
-    var number = [];
-    if(input >= 3)
-{
-  while (input >= 3)
+function beepIn(input){
+  var numbers = [];
+  if(input >= 3)
   {
-    numbers.push("I'm Sorry, Dave. I'm afraid I can't do that")
+    while(input >= 3)
+  {
+    numbers.push("I'm Sorry, Dave. I'm afraid I can't do that");
+    }
   }
-}
 
-if (input >= 2) {
-  ()
-}
+// if (input >= 2) {
+//  ( input)
+//}
 
+
+
+
+
+
+numbers = numbers.join('');
+  console.log(numbers);
+  return numbers;
+}
 $(document).ready(function() {
   $("#formOne").submit(function(event){
 
     var input = $("#number1").val();
-    var input = BeepIn(parseInt(input));
-
+    var input = beepIn(parseInt(input));
+    event.preventDefault();
+  });
+});
     //var number1 = parenInt($("number1")).val());
     //var number2 = parenInt($("number2")).val());
     //var number1 = parenInt($("number3")).val());
@@ -27,10 +38,7 @@ $(document).ready(function() {
 
 
 
-    event.preventDefault();
-    console.log(listsArr);
-  });
-});
+
 
 
 
