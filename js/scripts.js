@@ -2,8 +2,9 @@ function beepIn(input){
   var numbers = [];
 
   var numberStr = "";
+
   for (var i = 0; i <= parseInt(input); i++){
-    numberStr=String(i);
+    numberStr = String(i);
 
     if(numberStr.includes("3")){
         numbers.push("I'm sorry, Dave. I'm afraid I can't do that.");
@@ -15,10 +16,12 @@ function beepIn(input){
       numbers.push(numberStr);
     }
   }
-
   numbers = numbers.join(' ');
+
   return numbers;
 }
+
+
 $(document).ready(function() {
   $("#formOne").submit(function(event){
 
@@ -27,7 +30,7 @@ $(document).ready(function() {
 
     $("#display").text(output).val();
 
-    // $(".form-group").toggle();
+
     $("#number").val("");
     event.preventDefault();
   });
