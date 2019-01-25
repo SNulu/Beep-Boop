@@ -1,31 +1,35 @@
 function beepIn(input){
   var numbers = [];
-  if(input >= 3)
-  {
-    while(input >= 3)
-  {
-    numbers.push("I'm Sorry, Dave. I'm afraid I can't do that");
-    }
-  }
 
+  var numberStr = "";
+  for (var i = 0; i < input; i++){
+    numberStr=String(i);
+
+    if(numberStr.includes("3")){
+      
+    } else if (numberStr.includes("2")) {
+
+    } else if (numberStr.includes("1")){
+
+    }
+    numbers.push(numberStr)
+  }
 // if (input >= 2) {
 //  ( input)
 //}
 
-
-
-
-
-
-numbers = numbers.join('');
+  numbers = numbers.join(' ');
   console.log(numbers);
   return numbers;
 }
 $(document).ready(function() {
   $("#formOne").submit(function(event){
 
-    var input = $("#number1").val();
-    var input = beepIn(parseInt(input));
+    var input = $("#number").val();
+    var output = beepIn(parseInt(input));
+
+    $("#display").text(output).val();
+
     event.preventDefault();
   });
 });
