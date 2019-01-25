@@ -6,17 +6,15 @@ function beepIn(input){
     numberStr=String(i);
 
     if(numberStr.includes("3")){
-      
+
     } else if (numberStr.includes("2")) {
 
     } else if (numberStr.includes("1")){
 
+    } else {
+      numbers.push(numberStr);
     }
-    numbers.push(numberStr)
   }
-// if (input >= 2) {
-//  ( input)
-//}
 
   numbers = numbers.join(' ');
   console.log(numbers);
