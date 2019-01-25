@@ -6,7 +6,9 @@ $(document).ready(function() {
 
     var number1 = parenInt($("number1")).val());
     var number2 = parenInt($("number2")).val());
-    var number1 = parenInt($("number1")).val());
+    var number1 = parenInt($("number3")).val());
+
+    fo
 
 
 
