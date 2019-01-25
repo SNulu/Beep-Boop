@@ -2,7 +2,7 @@ function beepIn(input){
   var numbers = [];
 
   var numberStr = "";
-  for (var i = 0; i <= input; i++){
+  for (var i = 0; i <= parseInt(input); i++){
     numberStr=String(i);
 
     if(numberStr.includes("3")){
@@ -17,17 +17,18 @@ function beepIn(input){
   }
 
   numbers = numbers.join(' ');
-  console.log(numbers);
   return numbers;
 }
 $(document).ready(function() {
   $("#formOne").submit(function(event){
 
     var input = $("#number").val();
-    var output = beepIn(parseInt(input));
+    var output = beepIn(input);
 
     $("#display").text(output).val();
 
+    // $(".form-group").toggle();
+    $("#number").val("");
     event.preventDefault();
   });
 });
