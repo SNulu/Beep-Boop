@@ -6,11 +6,11 @@ function beepIn(input){
     numberStr=String(i);
 
     if(numberStr.includes("3")){
-
+        numbers.push("I'm sorry, Dave. I'm afraid I can't do that.");
     } else if (numberStr.includes("2")) {
-
+        numbers.push("Boop!");
     } else if (numberStr.includes("1")){
-
+        numbers.push("Beep!");
     } else {
       numbers.push(numberStr);
     }
