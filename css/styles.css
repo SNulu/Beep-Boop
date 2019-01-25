@@ -1,0 +1,23 @@
+
+
+body {
+background-color: #00ff99;
+}
+
+.jumbotron {
+  color: #9900cc;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+button {border-radius: 50%;}
