@@ -6,13 +6,13 @@
 
 ## Description
 
-_We Application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a set of exceptions_
+_Web Application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a set of exceptions_
 
 ## Setup/Installation Requirements
 
-* _Clone from Repository_
-* _Run in browser_
-* __
+* _Clone from Repository._
+* _Open `index.html` to run in local browser._
+* _Go to [gh-page]() for live demo._
 
 
 ## Known Bugs
@@ -20,11 +20,8 @@ _We Application that takes a number from a user and returns a range of numbers f
 _None known_
 
 ## Specs
-_*input: 1 / expected output: I*_
-_*input: 9 / expected output: IX*_
-_*input: 3000 / expected output: MMM*_
-_*input: 41 / expected output: XLI*_
-_*input: 1090 / expected output: MXC*_
+_*input: 1 / expected output: 0 Beep!*_
+_*input: 9 / expected output: 0 Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5 6 7 8 9*_
 
 ## Technologies Used
 
