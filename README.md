@@ -12,7 +12,7 @@ _Web Application that takes a number from a user and returns a range of numbers 
 
 * _Clone from Repository._
 * _Open `index.html` to run in local browser._
-* _Go to [gh-page]() for live demo._
+* _Go to [gh-page](https://snulu.github.io/Beep-Boop/) for live demo._
 
 
 ## Known Bugs
