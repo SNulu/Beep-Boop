@@ -20,8 +20,9 @@ _Web Application that takes a number from a user and returns a range of numbers 
 _None known_
 
 ## Specs
-_*input: 1 / expected output: 0 Beep!*_
-_*input: 9 / expected output: 0 Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5 6 7 8 9*_
+  - _*input: 1 / expected output: 0 Beep!*_
+
+  - _*input: 9 / expected output: 0 Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5 6 7 8 9*_
 
 ## Technologies Used
 
