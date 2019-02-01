@@ -1,8 +1,8 @@
 # _Beep-Boop_
 
-#### _Web Application _
+#### *Web Application*
 
-#### Sanyu Prado**_
+#### *Sanyu Prado*
 
 ## Description
 
@@ -20,9 +20,48 @@ _Web Application that takes a number from a user and returns a range of numbers 
 _None known_
 
 ## Specs
-  - _*input: 1 / expected output: 0 Beep!*_
+  - Numbers that don't include `1`, `2` or `3`.
 
-  - _*input: 9 / expected output: 0 Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5 6 7 8 9*_
+    Example:
+    * _*input: *_ `0`.
+    * _*output:*_ Number `0`.
+        ```
+        0
+        ```
+
+  - Substitute numbers that includes `1`.
+
+    Example:
+    * _*input: *_ `1`.
+    * _*output:*_ Number `0` and `1` is substituted by `Beep!`.,wk
+        ```
+        0 Beep!
+        ```
+
+  - Substitute numbers that include `2`.
+
+    Example:
+    * _*input: *_ `2`.
+    * _*output: *_ Number `0`, number `1` substituted by `Beep!` and number `2` substituted by `Boop!`.
+      ```
+      0 Beep! Boop!
+      ```
+
+  - Substitute numbers that include `3`.
+
+    Example
+    * _*input: *_ `9`.
+    * _*output: *_ Number `0`, number `1` substituted by `Beep!`, number `2` substituted by `Boop!` and number `3` substituted by `I'm sorry, Dave. I'm afraid I can't do that.`.
+      ```
+      Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5 6 7 8 9
+      ```
+
+  - Example with list of numbers that includes `1`, `2` or `3`.
+    * _*input: *_ `24`
+    * _*outuput: *_
+      ```
+      0 Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. 4 5 6 7 8 9 Beep! Beep! Boop! I'm sorry, Dave. I'm afraid I can't do that. Beep! Beep! Beep! Beep! Beep! Beep! Boop! Boop! Boop! I'm sorry, Dave. I'm afraid I can't do that. Boop!
+      ```
 
 ## Technologies Used
 
