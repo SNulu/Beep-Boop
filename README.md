@@ -65,10 +65,10 @@ _None known_
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, Javascript and Jquery were used_
+_HTML, CSS, Bootstrap, Javascript and JQuery were used_
 
 ### License
 
-*This software is licensed under the MIT license*
+*This software is licensed under the [MIT license](https://opensource.org/licenses/MIT)*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_{Sanyu N Prado}_**
